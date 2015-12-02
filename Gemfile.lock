@@ -201,6 +201,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bourbon
   byebug (= 3.4.0)
   coffee-rails (= 4.1.0)
   font-awesome-sass (~> 4.4.0)

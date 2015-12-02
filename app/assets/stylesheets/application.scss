@@ -1,14 +1,68 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "bourbon/bourbon";
-@import "neat/neat";
+@import "bourbon";
+@import "neat";
+
+/*HOME PAGE STYLING*/
+html {
+	background-color: #ECECEA;
+}
+
+h1, h2{
+	color:#74AFAD;
+	text-align:center;
+}
+
+h1{
+	font-size: 4.5em;
+}
+
+h2{
+	font-size: 3em;
+}
+
+p{
+	color: #D9853B;
+	font-size: 1.4em;
+	text-align:center;
+}
+
+// NEAT GRID
+#landing-page{
+	@include outer-container;
+	@include span-columns(6);
+	@include shift(3);
+
+}
+
+#contact-table{
+	@include span-columns(5 of 6);
+	@include shift(1);
+}
+
+#toolbox{
+	@include outer-container;
+	@include span-columns(6);
+	@include shift(3);
+}
+
+#portfolio{
+	@include outer-container;
+	@include span-columns(6);
+	@include shift(3);
+}
 
 /*CONTACT INFO*/
 tr, td{
 	padding:1.6em;
+
 }
 
  /*Styling for Font Awesome Characters*/
 i.fa{
 	color:black;
+}
+
+i.fa:hover{
+	color:#D9853B;
 }
