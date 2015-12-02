@@ -2,6 +2,7 @@
 @import "font-awesome";
 @import "bourbon";
 @import "neat";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300);
 
 /*HOME PAGE STYLING*/
 html {
@@ -11,6 +12,8 @@ html {
 h1, h2{
 	color:#74AFAD;
 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	
 }
 
 h1{
