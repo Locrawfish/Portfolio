@@ -10,4 +10,4 @@ This repo includes the code for my portfolio.
 
 --
 
-Find my website [here](http://lorencrawford.herokuapp.com).
+###Check out my website [here](http://lorencrawford.herokuapp.com)!
