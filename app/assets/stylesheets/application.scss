@@ -10,7 +10,7 @@ html {
 	background-color: #ECECEA;
 }
 
-h1, h2{
+h1, h2, nav{
 	color:#74AFAD;
 	text-align:center;
 	font-family: 'Fredericka the Great', cursive;
@@ -32,9 +32,6 @@ p{
 	font-family: 'Fredericka the Great', cursive;
 }
 
-#title{
-	background-color:orange;
-}
 
 /* NEAT GRID*/
 /*#landing-page{
@@ -85,7 +82,7 @@ i.fa:hover{
   $base-font-color: $dark-gray !default;
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: #E7F1EC;
+  $centered-navigation-background: #ECECEA;
   $centered-navigation-color: transparentize($base-font-color, 0.3);
   $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-height: 60px;
