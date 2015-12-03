@@ -8,17 +8,25 @@
 /*HOME PAGE STYLING*/
 html {
 	background-color: #ECECEA;
+	height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 h1, h2, nav{
 	color:#74AFAD;
 	text-align:center;
 	font-family: 'Fredericka the Great', cursive;
-	
+}
+
+h1, h2{
+	margin:0px;
 }
 
 h1{
-	font-size: 4.5em;
+	font-size: 4em;
 }
 
 h2{
@@ -34,22 +42,26 @@ p{
 
 
 /* NEAT GRID*/
-/*#landing-page{
+#title{
 	@include outer-container;
-	@include span-columns(8);
-	@include shift(2);
+	@include span-columns(6);
+	@include shift(3);
 
-}*/
+}
 
 #contact-table{
 	@include span-columns(6);
-	@include shift(4);
+	@include shift(3);
 }
 
 #toolbox{
 	@include outer-container;
 	@include span-columns(6);
 	@include shift(3);
+}
+
+#toolbox-table{
+	@include span-columns(6 of 6);
 }
 
 #portfolio{
@@ -60,8 +72,8 @@ p{
 
 /*CONTACT INFO*/
 tr, td{
-	padding:1.6em;
-
+	padding:3.6em;
+	padding-top:1em;
 }
 
  /*Styling for Font Awesome Characters*/
