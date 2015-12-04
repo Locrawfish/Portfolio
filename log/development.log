@@ -13854,3 +13854,1702 @@ Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774a
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-03 21:30:36 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 12:46:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (126.8ms)
+  Rendered partials/_navigation.html.erb (0.3ms)
+Completed 200 OK in 1637ms (Views: 1627.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7230e1fcaf39fe8e0e35148a9909ab44d584f869437e3103fe5db86e519e2c3a.css?body=1" for ::1 at 2015-12-04 12:46:03 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 12:46:03 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 12:46:03 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 12:46:03 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 12:46:03 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:46:03 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (145.7ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 12:46:19 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:46:19 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.8ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 12:54:54 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1221ms (Views: 1220.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-33ce46e7f9a7e3ca22f9bb4c41a4c82caa50452852fdd31714bb0626c42f8b22.css?body=1" for ::1 at 2015-12-04 12:54:55 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 12:54:55 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 12:54:55 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 12:54:55 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 12:54:56 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:54:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (85.5ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 12:56:51 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1220ms (Views: 1219.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-336247a3bdf3d4f5aa2ab9ef1f2b08d8bcb1baebf36e7d23d2435d3ad980de4b.css?body=1" for ::1 at 2015-12-04 12:56:52 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 12:56:52 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 12:56:52 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:56:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (69.8ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 12:56:52 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 12:56:52 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:57:02 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (49.5ms)
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 12:57:02 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (46.4ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 13:00:06 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1242ms (Views: 1241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3022e2a95f746de2c079963893630fe8fa485b675eb66c52edad6f8c9b1e9347.css?body=1" for ::1 at 2015-12-04 13:00:08 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:00:08 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:00:08 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 13:00:08 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (93.4ms)
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:00:08 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:00:08 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:01:34 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 625ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError ($color: "rbga(255, 255, 255, 0.1)" is not a color for `darken'):
+  app/assets/stylesheets/application.scss:150
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2595139813482987561_70143697170980'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (22.8ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (102.1ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 13:01:58 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 603ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError (wrong number of arguments (1 for 2) for `darken'):
+  app/assets/stylesheets/application.scss:150
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2595139813482987561_70143697170980'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (77.9ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 13:02:10 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3022e2a95f746de2c079963893630fe8fa485b675eb66c52edad6f8c9b1e9347.css?body=1" for ::1 at 2015-12-04 13:02:11 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:02:11 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:02:11 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:02:11 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 13:02:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (67.2ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:02:11 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:03:51 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1190ms (Views: 1189.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-18d3b16c3c59b1ad22a88db918285a1c0ea1d23d067d12382d036203f0b85eea.css?body=1" for ::1 at 2015-12-04 13:03:52 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:03:52 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:03:52 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:03:52 -0500
+
+
+Started GET "/images/break.jpg" for ::1 at 2015-12-04 13:03:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (95.7ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:03:53 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:05:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1274ms (Views: 1273.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:05:41 -0500
+
+
+Started GET "/assets/application.self-00521d3f99367dfb8cc8721033531c76326cb56457a21e2d1bb91da61cb74dc1.css?body=1" for ::1 at 2015-12-04 13:05:41 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:05:41 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:05:41 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:05:41 -0500
+
+
+Started GET "/images/break.jpg" for ::1 at 2015-12-04 13:05:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 13:07:00 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1162ms (Views: 1161.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e66f2fa038ffffd7c7d310a0658fe2d1127f609cb6ac3c075c968e1271c7cef0.css?body=1" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:07:01 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:07:12 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1230ms (Views: 1229.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-82afff857247ffa005fc79091264abb267ce2a1e082bfdc23cccc33326807ddc.css?body=1" for ::1 at 2015-12-04 13:07:13 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:07:13 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:07:13 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:07:13 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:07:13 -0500
+
+
+Started GET "/assets/images/break.jpg" for ::1 at 2015-12-04 13:07:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/break.jpg"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (75.7ms)
+
+
+Started GET "/" for ::1 at 2015-12-04 13:07:28 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/assets/application.self-e66f2fa038ffffd7c7d310a0658fe2d1127f609cb6ac3c075c968e1271c7cef0.css?body=1" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:07:28 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:14:52 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1193ms (Views: 1191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2e1430836f03126a75b4ed57b84d2e6b602d262821b9b4bfbaa16ef5ba3189ab.css?body=1" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:14:53 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:15:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1158ms (Views: 1157.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/assets/application.self-5a9eca5de7839de5de15d3578a996df3bdeb80b6dec86ee32c8ada14c5b8eaf9.css?body=1" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:15:10 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:15:49 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1235ms (Views: 1234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-049c4539d7f548d12dcf324f0b1a455338d9ff9d660079e7a19c04b131661bee.css?body=1" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:15:50 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:22:26 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1339ms (Views: 1338.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/assets/application.self-6c8337a5d87e3067de4d4bb244fa7e858b595fa980a9cfa5877e2486416c0c40.css?body=1" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:22:27 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:25:43 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1216ms (Views: 1215.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9b5c261c9ce0002a643216ef61bac620ae8e22a4d84297ef7c0f871816c8acdf.css?body=1" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:25:44 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:28:51 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1209ms (Views: 1208.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/assets/application.self-c88f2c3a54172a33acce3d5c2690c0dee2c3eea2ea208a5e375d5c9601243869.css?body=1" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:28:52 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:30:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c88f2c3a54172a33acce3d5c2690c0dee2c3eea2ea208a5e375d5c9601243869.css?body=1" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:30:27 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:31:30 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1183ms (Views: 1182.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b05510b17617f97493ea98d40f949e87ff6a0a1e3c3558af29300d0ee84d325b.css?body=1" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:31:31 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:32:16 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/assets/application.self-b05510b17617f97493ea98d40f949e87ff6a0a1e3c3558af29300d0ee84d325b.css?body=1" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:32:16 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:34:36 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-049c4539d7f548d12dcf324f0b1a455338d9ff9d660079e7a19c04b131661bee.css?body=1" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:34:36 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:35:46 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-049c4539d7f548d12dcf324f0b1a455338d9ff9d660079e7a19c04b131661bee.css?body=1" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:35:46 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:36:11 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1202ms (Views: 1201.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5c6c9e5dcd7eca16e66613b57269b2368eac752d38d7a65fb6b8ae05ddb09c19.css?body=1" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:36:13 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:36:35 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.9ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5c6c9e5dcd7eca16e66613b57269b2368eac752d38d7a65fb6b8ae05ddb09c19.css?body=1" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:36:35 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:36:49 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1182ms (Views: 1181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/assets/application.self-be88208998b836ca4e6c9510ce7f6052ee23d0fecae8d60111c06e2c380d7c38.css?body=1" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:36:51 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:37:26 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1206ms (Views: 1204.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-874b55daf012ad05756bafc607000919a53c2005649e04f7514ddea0d2d0cac9.css?body=1" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:37:27 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:37:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1185ms (Views: 1184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce6e8bd1a09147b6c21849367c5177f038dfcbb847c1f3a292cf7edbbb72386b.css?body=1" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:37:41 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:37:47 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/assets/application.self-874b55daf012ad05756bafc607000919a53c2005649e04f7514ddea0d2d0cac9.css?body=1" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:37:47 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:37:58 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1167ms (Views: 1167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0558b4a674ef4f3a7a6bbd0c56e16499841466a2751bcf3e4b5ac3a063829d53.css?body=1" for ::1 at 2015-12-04 13:37:59 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:38:00 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:38:00 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:38:00 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:38:00 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:38:00 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:38:07 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1203ms (Views: 1202.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/assets/application.self-e560cf308c144253d48a6583729690de8b0c42821df18de3f04ab9fc4d6603c4.css?body=1" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:38:08 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:38:13 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e560cf308c144253d48a6583729690de8b0c42821df18de3f04ab9fc4d6603c4.css?body=1" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:38:13 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:38:30 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:38:30 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:39:19 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1173ms (Views: 1172.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2548798e84b872126bf1b2b971f17002427a884893a412f023d7838798a0e0cd.css?body=1" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:39:20 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:39:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1173ms (Views: 1172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f7d100c6e09e5b2f5342fc50718a11aa09eea28c2c5743110ad26ba2a46a9b26.css?body=1" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:39:41 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:40:00 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.7ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1223ms (Views: 1222.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4c7d52f9e908d41a525ff63218163625d47c507d72a3588785ff19a4caf9ab5.css?body=1" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:40:01 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:40:18 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1204ms (Views: 1202.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d3b3d18db7d1836f38c4f332e897bbb22441072a39d8709c94269d58b3a7c7e1.css?body=1" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:40:19 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:40:25 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1198ms (Views: 1198.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/assets/Loren-8bdca0773167ab38d39944a6e56e8de69d94356af2849a398774adefbd2bfe1d.jpg" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:40:26 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:41:56 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (30.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:41:56 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:41:56 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:41:56 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:41:56 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:41:57 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:41:57 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:42:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.8ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:42:27 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:42:35 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:42:35 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:42:41 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:42:41 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:42:48 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:42:48 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:42:57 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:42:57 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:44:28 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.3ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:44:28 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:44:37 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:44:38 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:44:53 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:44:53 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:01 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:08 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.3ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:08 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:16 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:16 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7f6be269e855b17b1219e2a0f90ef87e90d85456f9d21615d33afa3a914700f1.css?body=1" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:27 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:43 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+Completed 200 OK in 1272ms (Views: 1271.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/assets/application.self-15512f738c450c012e482e5e6998f1b7f224d3fd12519c830ad625da378f1be2.css?body=1" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:44 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:45:49 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1228ms (Views: 1227.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dc26e8192e0639c1918301e679a2bfdb5404519380ca2dfc5638c1704529e4eb.css?body=1" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:45:50 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:47:54 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1255ms (Views: 1253.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/assets/application.self-3c8b3dcdd8440c93ab99b340989dc1abafc442f2eb494db01f1f90baae5ccfd0.css?body=1" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:47:55 -0500
+
+
+Started GET "/" for ::1 at 2015-12-04 13:48:23 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 1222ms (Views: 1221.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4d5ad05fdc49a2294aa0dde827a09fe4d70e7debfef7c347558518bae3c48c79.js?body=1" for ::1 at 2015-12-04 13:48:24 -0500
+
+
+Started GET "/assets/application.self-793bc288545e21f336364e89a29d11bc988f8df71688dc6c93f2c2e1f341bcb3.css?body=1" for ::1 at 2015-12-04 13:48:24 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-04 13:48:24 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-04 13:48:24 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-04 13:48:24 -0500
+
+
+Started GET "/assets/break.jpg" for ::1 at 2015-12-04 13:48:24 -0500

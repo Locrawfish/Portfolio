@@ -7,28 +7,30 @@
 
 /*HOME PAGE STYLING*/
 html {
-	background-color: #ECECEA;
+	// background-color: #ECECEA;
 	height: 100%;
 	
 }
 
 body {
-  min-height: 100%;
+  background: url('break.jpg') no-repeat fixed;
+	background-size:cover;
+	min-height: 100%;
   margin:0px;
-  background-image: url('images/break.jpg');
 }
 
 div.page{
-	height: 80vh;
+	height: 90vh;
+	background-color:#fff;
 }
 
-div.break{
-	height: 20vh;
-	background-color:rgba(0,0,0,0.1);
+div#break{
+	height: 10vh;
+	background-color:none;
 }
 
 #title{
-	margin-top:5em;
+	margin-top:8em;
 }
 
 #title-image{
@@ -46,7 +48,6 @@ div.break{
 
 h1, h2, nav{
 	color:#74AFAD;
-	text-align:center;
 	font-family: 'Fredericka the Great', cursive;
 }
 
@@ -56,10 +57,12 @@ h1, h2{
 
 h1{
 	font-size: 4em;
+
 }
 
 h2{
 	font-size: 3em;
+	text-align:center;
 }
 
 p{
@@ -72,18 +75,19 @@ p{
 
 /* NEAT GRID*/
 #title-image{
-	@include span-columns(2);
+	@include span-columns(1);
 	@include shift(2);
 }
 
 #title{
 	@include span-columns(6);
+	@include shift(1);
 	@include omega();
 }
 
 #contact-table{
 	@include span-columns(6);
-	@include shift(2);
+	// @include shift(1);
 }
 
 #toolbox{
