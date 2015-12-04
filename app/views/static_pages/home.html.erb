@@ -1,34 +1,44 @@
-<div id ='landing-page'>
-<div id = 'title'>
-  <h1>Hi! I'm <span style = "color:#D9853B">Loren.</span> <br>I'm a ruby developer.</h1>
+<div id ='landing-page' class = 'page'>
+  <div id ='title-image'>
+    <img src="<%= asset_path 'Loren.jpg' %>" width = '200px' height = '300px'>
+  </div>
+  <div id = 'title'>
+    <h1>Hi! I'm <span style = "color:#D9853B">Loren.</span> <br>I'm a ruby developer.</h1>
+    <table id ='contact-table'>
+      <tr>
+        <td><a href="mailto:lmcrawf@gmail.com"><i class="fa fa-envelope fa-2x"></i></i></a></td>
+        <td><a href="https://github.com/Locrawfish"><i class="fa fa-github fa-2x"></i></a></td>
+        <td><a href="https://www.linkedin.com/in/lorenmcrawford"><i class="fa fa-linkedin fa-2x"></i></a></td>
+        <td><a href="https://twitter.com/LCrawfish"><i class="fa fa-twitter fa-2x"></i></a></td>
+      </tr>
+    </table>
+  </div>
+  <div id = 'nav-arrow'>
+    <a href="#toolbox"><i class="fa fa-angle-down fa-5x"></i></a>
+  </div>
+ </div> 
+
+<div class = 'break'>
 
 </div>
 
-<table id ='contact-table'>
-  <tr>
-    <td><a href="mailto:lmcrawf@gmail.com"><i class="fa fa-envelope fa-2x"></i></i></a></td>
-    <td><a href="https://github.com/Locrawfish"><i class="fa fa-github fa-2x"></i></a></td>
-    <td><a href="https://www.linkedin.com/in/lorenmcrawford"><i class="fa fa-linkedin fa-2x"></i></a></td>
-    <td><a href="https://twitter.com/LCrawfish"><i class="fa fa-twitter fa-2x"></i></a></td>
-  </tr>
-</table>
-</div>
-
-
-<div id = 'toolbox'>
-	<h1>My Toolbox</h1>
+<div id = 'toolbox' class = 'page'>
+	<h1>Tools I Use</h1>
   <hr>
   <table id ='toolbox-table'>
     <tr>
       <td></td>
       <td></td>
-      <td><img src="../assets/images/logo/jquery-logo.png"></td>
+      <td><img src="<%= asset_path 'logo/jquery-logo.png' %>" width = '150px' height = '150px'></td>
       <td></td>
     </tr>
 </table>
+<div id = 'nav-arrow'>
+  <a href="#portfolio"><i class="fa fa-angle-down fa-5x"></i></a>
+</div>
 </div>
 
-<div id = 'portfolio'>
+<div id = 'portfolio' class = 'page'>
 	<h1>My Portfolio</h1>
   <hr>
   <table id ='contact-table'>
