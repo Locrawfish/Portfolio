@@ -24,7 +24,7 @@ div#landing-page{
 }
 
 #title{
-	margin:1em;
+	margin:1em 0 0.5em 0;
 	// height:100vh;
 }
 
@@ -35,12 +35,13 @@ div#landing-page{
 
 #intro p{
 	color:#fff;
-	margin:1em 0 0em 0;
+	margin:1em 0 4em 0;
+	font-size:1.2em;
 }
 
-#contact-table{
-	margin-bottom:5em;
-}
+// #contact-table{
+// 	margin-bottom:5em;
+// }
 
 h1, h2, nav{
 	font-family: 'Raleway Dots', cursive
@@ -89,7 +90,7 @@ p{
 }
 
 #contact-table{
-	@include span-columns(12);
+	@include span-columns(4 in 12);
 	@include shift(5);
 }
 
@@ -111,8 +112,8 @@ p{
 
 /*CONTACT INFO*/
 tr, td{
-	padding:.6em;
-	padding-top:1em;
+	padding:0 1em;
+	margin-bottom: 1em;
 }
 
  /*Styling for Font Awesome Characters*/
@@ -121,7 +122,7 @@ i.fa{
 }
 
 i.fa:hover{
-	color:rgba(0,0,0,.9);
+	color:#fff;
 }
 
 /* NAVIGATION */
