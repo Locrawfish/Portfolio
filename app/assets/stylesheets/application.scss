@@ -13,10 +13,7 @@ body {
 	min-height: 100%;
   margin:0px;
 }
-div.page{
-	height:100%;
-	width:100%;
-}
+
 
 div#landing-page{
 	width:100%;
@@ -246,6 +243,7 @@ i.fa:hover{
       &:focus,
       &:hover {
         color: $centered-navigation-color-hover;
+        font-weight: bold;
       }
     }
 
