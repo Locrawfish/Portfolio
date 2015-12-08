@@ -23,10 +23,14 @@
     <h2>My Toolbox</h2>
     <table id ='toolbox-table'>
       <tr>
-        <td></td>
-        <td></td>
-        <!-- <td><img src="<%= asset_path 'logo/jquery-logo.png' %>" width = '150px' height = '150px'></td> -->
-        <td></td>
+        <td><img src="<%= asset_path 'logo/HTML_Logo.png' %>" width = '150px' height = '150px'></td>
+        <td><img src="<%= asset_path 'logo/css3.png' %>" width = '150px' height = '150px'></td>
+        <!-- <td><img src="<%= asset_path 'logo/js_logo.png' %>" width = '150px' height = '150px'></td> -->
+        <td><img src="<%= asset_path 'logo/jquery-logo.png' %>" width = '150px' height = '150px'></td>
+        <br>
+        <td><img src="<%= asset_path 'logo/rubylogo.svg' %>" width = '150px' height = '150px'></td>
+        <td><img src="<%= asset_path 'logo/rails-logo.png' %>" width = '150px' height = '150px'></td>
+        <td><img src="<%= asset_path 'logo/postgresql-logo.png' %>" width = '150px' height = '150px'></td>
       </tr>
     </table>
   </div>
@@ -34,13 +38,42 @@
 
 <div class = 'page'>
   <div id = 'portfolio' >
-    <h2>My Portfolio</h2>
-    <div class = 'card' id ='duckhunt'>
-      <img src="<%= asset_path 'portfolio-images/Duck-hunt.png' %>">
-      <h3>Duck Hunt</h3>
-    </div>  
+    <h2>My Portfolio</h2> 
     <div class = 'card' id ='globetrotter'>
-      <img src="<%= asset_path 'portfolio-images/Globetrotter.png' %>">
+      <a href="https://www.bitballoon.com/sites/upholsterer-richard-67310"><img src="<%= asset_path 'portfolio-images/Globetrotter.png' %>"></a>
+      <h3>Globetrotter</h3>
+      <p>Lorem epsum epsilfkdlasfklg</p>
+      <div id = 'portfolio-links'>
+        <i class="fa fa-link"></i>
+        <i class="fa fa-github-square"></i>
+      </div>
     </div> 
+    <div class = 'card' id ='residual-fare'>
+      <a href="residual-fare.herokuapp.com"><img src="<%= asset_path 'portfolio-images/residual-fare.png' %>"></a>
+      <h3>Residual Fare</h3>
+      <p>Lorem epsum epsilfkdlasfklg</p>
+      <div id = 'portfolio-links'>
+        <i class="fa fa-link"></i>
+        <i class="fa fa-github-square"></i>
+      </div>
+    </div>
+    <div class = 'card' id ='farm-connect'>
+      <a href="farmconnect.herokuapp.com"><img src="<%= asset_path 'portfolio-images/farm-connect.png' %>"></a>
+      <h3>Farm Connect</h3>
+      <p>Lorem epsum epsilfkdlasfklg</p>
+      <div id = 'portfolio-links'>
+        <i class="fa fa-link"></i>
+        <i class="fa fa-github-square"></i>
+      </div>
+    </div>
+    <div class = 'card' id ='card-up'>
+      <a href="card-up.herokuapp.com"><img src="<%= asset_path 'portfolio-images/farm-connect.png' %>"></a>
+      <h3>Card Up</h3>
+      <p>Lorem epsum epsilfkdlasfklg</p>
+      <div id = 'portfolio-links'>
+        <i class="fa fa-link"></i>
+        <i class="fa fa-github-square"></i>
+      </div>
+    </div>
   </div>
 </div>
