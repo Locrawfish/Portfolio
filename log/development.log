@@ -31842,3 +31842,1772 @@ Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80c
 
 
 Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:41:58 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:45:33 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:45:33 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (46.6ms)
+
+
+Started GET "/assets/application.self-826333ef2799c9a3592e6afb4fdb17c011587c7f4f815a15742981ed25652e61.css?body=1" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:45:33 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:45:55 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 1393ms (Views: 1392.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b94bb66db76de067cf32f0f4ac743d5656073836807b1232613c1425b433546d.css?body=1" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:45:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (48.8ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:45:56 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:46:49 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (14.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 1430ms (Views: 1429.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-52ba53b4662d6ece63203ec5f4c98571db5f1be08f29f896c607df73e948801b.css?body=1" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:46:51 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (49.0ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:46:51 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:47:07 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:47:08 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (51.2ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/application.self-52ba53b4662d6ece63203ec5f4c98571db5f1be08f29f896c607df73e948801b.css?body=1" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:47:08 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:47:13 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 1396ms (Views: 1395.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:47:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (44.1ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/application.self-12aa1974a837648488fe026155f95bd108e155e232fef9ba5c5d8aed6ca4cab4.css?body=1" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:47:14 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:48:08 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (24.4ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 1374ms (Views: 1373.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:48:09 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.5ms)
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/application.self-1ca41d693bfe833ae40643a9fb6b2702bd11cce5657a5bd159d0ae74e030f1f1.css?body=1" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:48:09 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:48:28 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (18.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 1424ms (Views: 1423.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/application.self-1d073d0a0e16334e51e20626458b3959dffd5a8838c1200acfb960286424c1a2.css?body=1" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:48:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (60.9ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:48:29 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:48:56 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (20.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 1523ms (Views: 1522.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:48:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (58.8ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/application.self-ad73c3a1a7ae79285872ec7dfd205e4806a3185ea5e64bc8bf2f4e4e2cc51fe4.css?body=1" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:48:58 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:49:22 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 1576ms (Views: 1575.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:49:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (51.8ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:49:24 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:50:06 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (22.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:50:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.0ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:50:06 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:50:26 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (36.7ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:50:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (53.4ms)
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:50:26 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:50:42 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (29.7ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:50:42 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.4ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:50:43 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:50:54 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (22.7ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:50:54 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (53.7ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:50:54 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:51:16 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (21.5ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:51:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (58.1ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:51:16 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:51:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (22.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:51:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/application.self-44a17bb0707a6a1b0673792a9c8b7e9b93986eced8c7e4de31ce0a0f5ccceaed.css?body=1" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:51:41 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:51:56 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (18.8ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 1480ms (Views: 1479.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:51:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (56.4ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:51:57 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:52:10 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:52:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.1ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:52:10 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:52:11 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:52:30 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.9ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:52:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (51.9ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:52:30 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:52:39 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.5ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:52:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.8ms)
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:52:39 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:52:40 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:52:55 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (20.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:52:55 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (56.4ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:52:55 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:53:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (35.4ms)
+  Rendered partials/_navigation.html.erb (0.1ms)
+  Rendered partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:53:09 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.5ms)
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:53:09 -0500
+
+
+Started GET "/" for ::1 at 2015-12-08 17:53:30 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.6ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/vendor/modernizr.js" for ::1 at 2015-12-08 17:53:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/vendor/modernizr.js"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/lorencrawford/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (53.4ms)
+
+
+Started GET "/assets/Loren-f201a580e8f4513842ca8d4db6d212d1b12121ef82085f6aa886866b926fd579.jpg" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/application.self-b5880de66af8765c72f5d3094173e5fd52a5a1f46012a559143f65b9d92399e6.js?body=1" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/application.self-a563f2da6c4d296c0e82fec4e5b6594717b2b522a4029ae7ba735cd659357f3d.css?body=1" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/portfolio-images/Globetrotter-1f1c805e49007cb54e3262da3bf692bcb1647a227530dafd432f3fa3f0ea8089.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/portfolio-images/residual-fare-3aed1c15218f233ca7f864f1541525554c0da8a17dce655703744af172e67743.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/portfolio-images/farm-connect-1547a59b4f99dfe32a00312272ad04cd893ce9d0826d6f6eedc4c2a068f7afc9.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/HTML_Logo-dd195b5b25a80518fa1498ed7d1cf2415653c8552e8d8e245caafe7bf012a32a.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/jquery-logo-379051ef9537507fe6d2a91753197b1c1eef49bb4ceef84629c841af90691d07.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/css3-8d8439c52804127d89846a2199340010215613b29461fae07df554352f14b3ec.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/rubylogo-19eb3bb630d14f6fbadd26a326a9d09de324aabef8a798e1a0ae1b51a5053287.svg" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/rails-logo-03bb170d74e34a9d3ab9157113c6ab68d2eb4a61a1a7ec5f77e45bc55d9e168e.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/logo/postgresql-logo-dc1254ce3a3ee0959ca1cea8fb0438d6517d12e220b243f9a59bef2e5afdc859.png" for ::1 at 2015-12-08 17:53:30 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-12-08 17:53:30 -0500

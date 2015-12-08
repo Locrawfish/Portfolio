@@ -52,10 +52,10 @@
   @include shift(1);
 }
 
-#portfolio-links{
-  @include span-columns(1 in 5);
-  @include shift(2);
-}
+// #portfolio-links{
+//   @include span-columns(1 in 5);
+//   // @include shift(2);
+// }
 
 #portfolio-links i{
   margin-right:1em;
