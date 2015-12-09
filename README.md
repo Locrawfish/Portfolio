@@ -1,5 +1,5 @@
 #Portfolio
-This repo includes the code for my portfolio. 
+This repo includes the code for my portfolio website. 
 
 ##Technologies Used
 * [Rails](https://github.com/rails/rails) 4.2.2
