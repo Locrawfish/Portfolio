@@ -11,4 +11,4 @@ This repo includes the code for my portfolio website.
 
 --
 
-###Check out my website [here](http://lorencrawford.herokuapp.com)!
+###Check out my website [here](http://lorencrawford.herokuapp.com)! Blog coming soon :) 
