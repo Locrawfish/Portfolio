@@ -1,0 +1,30 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (402.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 3494ms (Views: 3493.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (191.9ms)
+  Rendered partials/_navigation.html.erb (0.5ms)
+  Rendered partials/_footer.html.erb (0.5ms)
+Completed 200 OK in 319ms (Views: 318.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (206.0ms)
+  Rendered partials/_navigation.html.erb (0.6ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 326ms (Views: 325.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
