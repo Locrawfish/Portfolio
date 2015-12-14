@@ -77,10 +77,9 @@ tr, td{
  /*Styling for Font Awesome Characters*/
 i.fa{
 	color:rgba(0,0,0,.6);
-}
-
-i.fa:hover{
-	color:#fff;
+	&:hover{
+		color:#fff;
+	}	
 }
 
 #portfolio-links i.fa:hover{
@@ -91,10 +90,9 @@ i.fa:hover{
 // FOOTER
 #footer{
 	background-color:#ff6666;
-}
-
-#footer p{
-	color:#fff;
+	p{
+		color:#fff;
+	}
 }
 
 /* NEAT GRID*/

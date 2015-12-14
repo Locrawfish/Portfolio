@@ -2,29 +2,23 @@
   margin:2em;
   position: relative; 
   width: 100%; 
-  // background-color: red;
+  h3 {
+    text-align:left;
+    font-size: 1.4em;
+    margin:0;
+    font-style: underline;
+  }
+  p{
+    text-align:left;
+    margin:0;
+    font-size: 0.9em;
+  }
+  img{
+    height: 250px;
+    width: 400px;
+  }
 }
 
-.card h3{
-  text-align:left;
-  font-size: 1.4em;
-  margin:0;
-  font-style: underline;
-}
-.card p{
-  text-align:left;
-  margin:0;
-  font-size: 0.9em;
-}
-
-.card img{
-  height: 250px;
-  width: 400px;
-}
-
-// .card a:hover{
-//   opacity:0.5;
-// }
 
 #portfolio{
   @include outer-container;
@@ -52,10 +46,10 @@
   @include shift(1);
 }
 
-// #portfolio-links{
-//   @include span-columns(1 in 5);
-//   // @include shift(2);
-// }
+#portfolio-links{
+  @include span-columns(1 in 5);
+  // @include shift(2);
+}
 
 #portfolio-links i{
   margin-right:1em;
