@@ -47,8 +47,7 @@
 }
 
 #portfolio-links{
-  @include span-columns(1 in 5);
-  // @include shift(2);
+  @include span-columns(5 in 5);
 }
 
 #portfolio-links i{
