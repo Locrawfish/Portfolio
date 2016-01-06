@@ -1,6 +1,9 @@
+$mobile: new-breakpoint(max-width 480px 4); 
+$tablet: new-breakpoint(min-width 481px max-width 989px 8);
+$desktop: new-breakpoint(min-width 1234px 12);
+
 .card{
   margin:2em;
-  position: relative; 
   width: 100%; 
   h3 {
     text-align:left;
@@ -21,29 +24,57 @@
 
 
 #portfolio{
-  @include outer-container;
-  @include span-columns(12);
+  @include media($mobile){
+    @include span-columns(4);
+  }
+  @include media($desktop){
+    @include span-columns(12);
+  }
 }
 
 
 #globetrotter{
-  @include span-columns(5 in 12);
-  @include shift(1);
+   @include media($mobile){
+    @include span-columns(2 in 4);
+    @include shift(2);
+  }
+  @include media($desktop){
+    @include span-columns(4 in 12);
+    @include shift(1);  
+  }
 }
 
 #residual-fare{
-  @include span-columns(4 in 12);
-  @include shift(1);
+  @include media($mobile){
+    @include span-columns(2 in 4);
+    @include shift(1);
+  }
+  @include media($desktop){
+    @include span-columns(4 in 12);
+    @include shift(2);  
+  }
 }
 
 #farm-connect{
-  @include span-columns(5 in 12);
-  @include shift(1);
+ @include media($mobile){
+    @include span-columns(2 in 4);
+    @include shift(1);
+  }
+  @include media($desktop){
+    @include span-columns(4 in 12);
+    @include shift(1);  
+  }
 }
 
 #card-up{
-  @include span-columns(5 in 12);
-  @include shift(1);
+  @include media($mobile){
+    @include span-columns(2 in 4);
+    @include shift(1);
+  }
+  @include media($desktop){
+    @include span-columns(4 in 12);
+    @include shift(2);  
+  }
 }
 
 #portfolio-links{

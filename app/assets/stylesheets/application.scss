@@ -7,6 +7,8 @@
 @import "portfolio_grid_system";
 @import "nav_styling";
 
+$mobile: new-breakpoint(max-width 480px);
+$desktop: new-breakpoint(min-width 850px);
 
 /*HOME PAGE STYLING*/
 html {
@@ -122,19 +124,46 @@ i.fa{
 }
 
 #toolbox{
-	@include outer-container;
-	@include span-columns(10);
-	@include shift(1);
+	@include media($mobile){
+  	@include span-columns(6);
+  	@include shift(2);
+
+  }
+  @include media($desktop){
+	  @include span-columns(12);
+
+  }
+
 }
 
 #toolbox-table{
-	@include span-columns(8 of 10);
+	@include media($mobile){
+  	@include span-columns(4 in 6);
+  	@include shift(2);
+  }
+  @include media($desktop){
+	  @include span-columns(12 in 12);
+  }
+}
+
+#tool-logo{
+	@include media($mobile){
+  	@include span-columns(2 in 4);
+  }
+  @include media($desktop){
+	  @include span-columns(2 in 12);
+  }
 }
 
 #portfolio{
-	@include outer-container;
-	@include span-columns(10);
-	@include shift(1);
+	@include media($mobile){
+  	@include span-columns(6);
+  	@include shift();
+  }
+  @include media($desktop){
+	  @include span-columns(10);
+	  @include shift(1);
+  }
 }
 
 #footer{
